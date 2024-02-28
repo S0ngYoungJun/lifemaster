@@ -1,0 +1,36 @@
+.container{
+  width:100vw;
+  height:44vh;
+  position: relative; // Ensure the Swiper container has a relative position
+  display:flex;
+  align-items: center;
+}
+
+.cardcontainer{
+  display:flex;
+  width:25vw;
+  height: 36vh;
+  margin-left:3vw;
+}
+
+.card{
+  display:flex;
+  width:25vw;
+  height:36vh;
+  position: relative;
+  border-radius: 5%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  top: 50%; // Adjust vertically to center or any position you prefer
+  transform: translateY(-50%); // Center align the button vertically
+  // For horizontal positioning, adjust the right and left properties
+}
+
+.swiper-button-next {
+  right: 50px; // Place it on the right edge, adjust as needed
+}
+
+.swiper-button-prev {
+  left: 300px; // Place it on the left edge, adjust as needed
+}

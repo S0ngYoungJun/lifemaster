@@ -1,0 +1,28 @@
+.root{
+  display:flex;
+  flex-direction: column;
+  width:100vw;
+  height:100vh;
+}
+
+.top{
+ width:100vw;
+ height:12vh;
+ background-color: #F2EFE5;
+}
+
+.main{
+  display:flex;
+  width:100vw;
+  height:44vh;
+  background-color: #C7C8CC;
+  justify-content: center;
+}
+
+.week{
+  display:flex;
+  width:100vw;
+  height:44vh;
+  background-color: #E3E1D9;
+  justify-content: center;
+}
